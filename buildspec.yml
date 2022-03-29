@@ -9,5 +9,5 @@ phases:
         -echo Build Completed Succesfully
 artifacts:
   files:
-    - target/Oauth-service.jar
+    - target/OAuth-With-Google-0.0.1-SNAPSHOT.jar
   discard-paths: yes
