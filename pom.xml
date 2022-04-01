@@ -57,6 +57,7 @@
 					<password>tatsam123#</password>
 					<verbose>true</verbose>
 					<logging>trace</logging>
+					<promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
 				</configuration>
 			</plugin>
 
