@@ -4,7 +4,6 @@ phases:
     commands:
       - echo Entered the build phase...
       - mvn clean package
-      - mvn liquibase:changelogSync
       - mvn liquibase:update
   post_build:
     commands:
