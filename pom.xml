@@ -52,9 +52,9 @@
 					<changeLogFile>src/main/resources/db/changelog/db.changelog-master.yaml</changeLogFile>
 					<!-- on this location liquibase will generate changelog-->
 					<outputChangeLogFile> src/main/resources/db/changelog/changelog.xml</outputChangeLogFile>
-					<url>jdbc:postgresql://localhost:5432/demo</url>
+					<url>jdbc:postgresql://liquibase-instance.ch2syzav3mbv.ap-south-1.rds.amazonaws.com:5432/demo</url>
 					<username>postgres</username>
-					<password>root</password>
+					<password>tatsam123#</password>
 					<verbose>true</verbose>
 					<logging>trace</logging>
 				</configuration>
