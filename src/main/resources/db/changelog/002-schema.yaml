@@ -1,0 +1,11 @@
+databaseChangeLog:
+        - changeSet:
+        id: addColumn-example
+        author: valid-changeset
+        changes:
+        - addColumn:
+        tableName: tbl_customer
+        columns:
+        - column:
+        name: middlename
+        type: varchar(50)
