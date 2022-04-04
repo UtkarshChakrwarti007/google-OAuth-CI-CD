@@ -1,0 +1,8 @@
+<changeSet author="valid-test" id="addColumn-example">
+    <addColumn catalogName="cat"
+               schemaName= "public"
+               tableName="tbl_customer" >
+        <column name="phone"
+                type="varchar(255)"/>
+    </addColumn>
+</changeSet>
