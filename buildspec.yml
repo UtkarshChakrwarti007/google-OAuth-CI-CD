@@ -3,8 +3,11 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
-      - mvn clean package
-      - mvn liquibase:update
+      #- mvn clean package
+      #- mvn liquibase:update
+      Specifically Rollback for removing the 500 internal server error
+      - mvn liquibase:rollback '-Dliquibase.rollbackCount = 3'
+
   post_build:
     commands:
       - echo Build Completed Succesfully
