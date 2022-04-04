@@ -5,3 +5,5 @@ databaseChangeLog:
       file: db/changelog/002-schema.xml
   - include:
       file: db/changelog/003-schema.xml
+  - include:
+      file: db/changelog/004-schema.xml
