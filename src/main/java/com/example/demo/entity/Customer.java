@@ -32,6 +32,8 @@ public class Customer {
 
     private String location;
 
+    private String phone;
+
     @CreationTimestamp
     @Column(name="created_at", nullable=false, updatable=false)
     private Date createdAt;
